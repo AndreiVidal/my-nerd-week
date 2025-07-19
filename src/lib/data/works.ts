@@ -20,7 +20,7 @@ A partir daí, começa sua vida como slime em outro mundo, agora cercado por um 
     id: "kagenojitsuryokusha",
     title: "Kage no Jitsuryokusha ni Naritakute!",
     description: `
-# The Eminence in Shadow
+# A Emiência das Sombras
 Cid Kagenou sempre sonhou em se tornar uma figura poderosa nas sombras, manipulando tudo por trás dos bastidores.
 
 Depois de morrer em seu mundo original, ele reencarna em um mundo de fantasia onde finalmente pode colocar seus planos em prática — criando uma organização fictícia chamada **Shadow Garden** para combater um culto maligno... que misteriosamente **existe de verdade**.

@@ -12,5 +12,5 @@ export interface Character {
   group: string;
   description: string;
   images: string;
-  skills: Array<string>;
+  skills: string;
 }

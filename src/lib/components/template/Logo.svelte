@@ -1,4 +1,6 @@
-<div class="flex items-center gap-2">
+<a href="/"
+
+class="flex items-center gap-2">
   <img
     src="../logo.png"
     alt="logo my nerd wiki"
@@ -14,4 +16,4 @@
     >
     <span class="text-zinc-100">Wiki</span>
   </div>
-</div>
+</a>
