@@ -2,7 +2,7 @@
 
 class="flex items-center gap-2">
   <img
-    src="../logo.png"
+    src="/logo.png"
     alt="logo my nerd wiki"
     class="
     rounded-full h-15
