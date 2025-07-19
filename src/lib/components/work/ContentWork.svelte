@@ -15,7 +15,7 @@ gap-5
 >
 <nav class="flex">
     <MenuItem href="/" name="Inicio" />
-    <MenuItem href="./tensura/persons/" name="Personagens" />
+    <MenuItem href="./{work.id}/persons/" name="Personagens" />
 </nav>
     <img src="{work.image}" alt="foto da obra"
     class="

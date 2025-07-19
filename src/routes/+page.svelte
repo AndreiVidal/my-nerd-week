@@ -3,7 +3,7 @@
 import MenuItem from "../lib/components/template/MenuItem.svelte";
 </script>
 
-<Title title="My Nerd Wiki" subTitle="Principais obras"  />
+<Title title="My Nerd Wiki" subTitle="Principais"  />
 <ul
   class="
     flex

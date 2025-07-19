@@ -11,15 +11,11 @@
  bg-gradient-to-tr from-violet-500 via-purple-700 to-fuchsia-950 text-amber-50
  "
 >
-  <Header />
-  <div class="flex flex-1 gap-5 max-w-7xl mx-auto w-full p-1.5">
-    <main class="flex-1">
-      <slot></slot>
+  <div 
+  >
+    <main>
+      <slot />
     </main>
-    {#if !page.url.pathname.endsWith('persons') } 
-    <Aside />
-    {/if}
   </div>
 
-  <Footer />
 </div>
