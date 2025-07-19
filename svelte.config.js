@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import vercel from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -9,4 +10,9 @@ const config = {
 	kit: { adapter: adapter() }
 };
 
-export default config;
+
+export default {
+  kit: {
+    adapter: vercel(),
+  }, config
+};
