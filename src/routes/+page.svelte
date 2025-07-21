@@ -1,15 +1,14 @@
 <script>
   import Title from "$lib/components/template/Title.svelte";
-import MenuItem from "../lib/components/template/MenuItem.svelte";
-</script>
+  import ContentWork from "$lib/components/work/ContentWork.svelte";
+  import { works } from "$lib/data/works";
 
-<Title title="My Nerd Wiki" subTitle="Principais"  />
-<ul
-  class="
-    flex
-    "
->
-  <MenuItem href="/works/tensura" name="Tensura" />
-  <MenuItem href="/works/eminence" name="Eminence" />
-  <MenuItem href="/works/frieren" name="Frieren" />
-</ul>
+</script>
+<div class="bg-black/15 flex flex-col justify-center items-center">
+  <Title title="My Nerd Wiki" subTitle="Principais Obras"  />
+  {#each works as work }
+  <div class="flex flex-col">
+    <ContentWork work={work}/>
+  </div>
+  {/each}
+</div>

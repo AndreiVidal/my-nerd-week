@@ -8,6 +8,7 @@
 <div
   class="flex flex-col
  min-h-screen
+ gap-3
  bg-gradient-to-tr from-violet-500 via-purple-700 to-fuchsia-950 text-amber-50
  "
 >

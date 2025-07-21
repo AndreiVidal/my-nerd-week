@@ -1,7 +1,5 @@
 <script lang="ts">
     import { marked } from "marked";
-    import MenuItem from "../template/MenuItem.svelte";
-
     export let work: any = null
 </script>
 
@@ -10,20 +8,22 @@
 <div
 class="
 flex flex-col
+justify-center
+items-center
 gap-5
 "
 >
-<nav class="flex">
-    <MenuItem href="/" name="Inicio" />
-    <MenuItem href="./{work.id}/persons/" name="Personagens" />
-</nav>
+<section class="flex flex-col items-start justify-center gap-2 p-2 border border-violet-950 rounded-md">
     <img src="{work.image}" alt="foto da obra"
     class="
     md:h-96
     rounded-md
-    mx-2.5
     "
     >
+    <nav class="flex">
+        <a href="/works/{work.id}/persons/" class="btn">Personagens </a>
+    </nav>
+</section>
     <article class="prose prose-sm md:prose-lg prose-invert mx-4">
         {@html marked.parse(work.description)}
     </article>

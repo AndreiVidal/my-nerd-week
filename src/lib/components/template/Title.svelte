@@ -4,7 +4,11 @@
 </script>
 <div class="
     flex flex-col gap-0.5
-    md:px-5
+  items-center justify-center
+    rounded-sm
+    w-full
+    my-3
+    p-3
 ">
     <h1
       class="

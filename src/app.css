@@ -1,3 +1,18 @@
 @import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+
+
+
+.btn {
+    font-family: "Pacifico", cursive;
+    @apply text-xs font-bold py-2 px-4 uppercase;
+    @apply border rounded-md cursor-pointer;
+    @apply bg-black/20;
+    @apply hover:bg-white/10;
+    @apply hover:font-black;
+    @apply text-amber-50 hover:text-white
+
+}
