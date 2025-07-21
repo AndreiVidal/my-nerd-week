@@ -15,6 +15,6 @@ class="list-none"
     
     hover:underline hover:text-fuchsia-950 hover:bg-white/20
     ">
-        <span>{name}</span>
+        <span class="text-sm">{name}</span>
     </a>
 </li>

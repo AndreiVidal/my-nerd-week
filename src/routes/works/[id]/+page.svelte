@@ -1,5 +1,5 @@
 <script>
+    import { page } from "$app/state";
     import ContentWork from "$lib/components/work/ContentWork.svelte";
-    import { works } from "$lib/data/works";
 </script>
-<ContentWork work={works[2]}/>
+<ContentWork work={page.data.work} />

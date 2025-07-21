@@ -2,8 +2,9 @@
   import ButtonToogleMenu from "./ButtonToogleMenu.svelte";
   import Menu from "../template/Menu.svelte";
   import { scale } from "svelte/transition";
-    import MenuItem from "../template/MenuItem.svelte";
-   import { works } from "$lib/data/works";
+  import MenuItem from "../template/MenuItem.svelte";
+    import { works } from "$lib/data/works";
+
   let isOpen = false;
 
   function toggleMenu() {
@@ -32,9 +33,9 @@
       out:scale={{ duration: 200 }}
     >
   <Menu title="Obras">
-    <MenuItem href="/works/tensura" name="Tensura"/>
-    <MenuItem href="/works/eminence" name="Eminence"/>
-    <MenuItem href="/works/frieren" name="Frieren"/>
+    {#each works as work}
+    <MenuItem href="/works/{work.id}" name="{work.title}"/>
+    {/each}
   </Menu>
     </nav>
   </div>

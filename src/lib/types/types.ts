@@ -1,9 +1,9 @@
 export interface Work {
   id: string;
+  slug: string;
   title: string;
   description: string;
   image: string;
-  characterId: Character[];
 }
 
 export interface Character {
