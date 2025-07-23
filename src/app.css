@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
@@ -7,7 +7,7 @@
 
 
 .btn {
-    font-family: "Pacifico", cursive;
+    font-family: "Bitcount Prop Single", cursive;
     @apply text-xs font-bold py-2 px-4 uppercase;
     @apply border rounded-md cursor-pointer;
     @apply bg-black/20;
