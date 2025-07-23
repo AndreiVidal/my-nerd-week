@@ -13,7 +13,7 @@
     <h1
       class="
         text-center md:text-left
-        text-xl font-black
+        text-4xl font-black
     "
     >
       {title}

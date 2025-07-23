@@ -1,38 +1,51 @@
-# sv
+# My Nerd Wiki
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Acesse online 📚: [https://my-nerd-wiki.vercel.app/](https://my-nerd-wiki.vercel.app/)
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Sobre o Projeto
 
-```bash
-# create a new project in the current directory
-npx sv create
+**My Nerd Wiki** é um visualizador de obras e personagens de animes e mngas, desenvolvido como parte dos meus estudos em **Svelte**. Ele destaca:
 
-# create a new project in my-app
-npx sv create my-app
-```
+- Exibição de imagem, nome e descrição do personagem.
+- Renderização de habilidades em **Markdown**.
+- Organização das habilidades em **abas interativas**, extraídas automaticamente do conteúdo bruto.
+- Interface **escura**, moderna, responsiva e agradável de usar.
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠️ Tecnologias Utilizadas
 
-```bash
-npm run dev
+- **Svelte** – um framework frontend que compila componentes em JavaScript eficiente :contentReference[oaicite:1]{index=1}.
+- **Tailwind CSS** – para estilização moderna e responsiva.
+- **Marked** – para converter Markdown em HTML.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
+## 🎯 Objetivos de Estudo
 
-To create a production version of your app:
+Este projeto me ajudou a praticar:
 
-```bash
-npm run build
-```
+- Componentização com Svelte (`.svelte`).
+- Processamento de strings para dividir conteúdo em **tabs**.
+- Renderização de Markdown dinâmico.
+- Design responsivo com Tailwind CSS.
+---
 
-You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## ⚙️ Como Executar Localmente
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/my-nerd-wiki.git
+   cd my-nerd-wiki
+2. Instale as dependencias:
+    ```bash
+    npm install
+3. Inicie o servidor:
+    ```bash
+    npm run dev
+4. Acesse o app no navegador:
+    http://localhost:5173
