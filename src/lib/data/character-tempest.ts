@@ -1,11 +1,11 @@
 import type { Character } from "../types/types.ts"
 
 export const characters: Character[] = [
-    {
-        id: "rimuru-tempest",
-        name: "Rimuru Tempest",
-        group:"tensei-shitara-slime-data-ken",
-        description: `
+  {
+      id: "rimuru-tempest",
+      name: "Rimuru Tempest",
+      group:"tensei-shitara-slime-data-ken",
+      description: `
 # Rimuru Tempest
 
 ---
@@ -38,300 +38,186 @@ Mesmo com métodos sombrios, ele **valoriza profundamente seus aliados**, tratan
 
 Seu objetivo? **Viver tranquilo**, cercado de conforto e entretenimento, em um mundo moldado à sua maneira.
 `,
-    images: "https://anibase.net/files/1f01cb75ef3ecb2e9040bf5384a1132c",
-    skills: `
+  images: "https://anibase.net/files/1f01cb75ef3ecb2e9040bf5384a1132c",
+  skills: `
 ## 💠 Ultimate Skills
 
-* Azathoth, God of the Void
-* Shub‑Niggurath, Lord of Harvest
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Azathoth, God of the Void** | Habilidade suprema de aniquilação e manipulação do vazio absoluto. |
+| **Shub-Niggurath, Lord of Harvest** | Armazena, compartilha e duplica habilidades por meio da cadeia alimentar. |
 
 ---
 
 ## 🧬 Intrinsic Skills
 
-* Ultimate slime
-* Demon slime (absorbed várias habilidades)
-* Slime
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Ultimate Slime** | Estado evoluído com acesso a poderes incomparáveis. |
+| **Demon Slime** | Forma avançada com grande resistência e magia. |
+| **Slime** | Habilidade básica de regeneração e absorção. |
 
 ---
 
 ## 🔁 Former Ultimate Skills
 
-(antes de evoluírem para entidades superiores)
-
-* Beelzebuth, Lord of Gluttony
-* Raphael, Lord of Wisdom
-* Uriel, Lord of Vows
-* Veldora, Lord of Storms
-* Velgrynd, Lord of Scorch
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Beelzebuth, Lord of Gluttony** | Devora, analisa e armazena habilidades. |
+| **Raphael, Lord of Wisdom** | Entidade analítica que auxilia nas decisões e estratégias. |
+| **Uriel, Lord of Vows** | Especialista em barreiras e selos mágicos. |
+| **Veldora, Lord of Storms** | Poder baseado em tempestades emprestado de Veldora. |
+| **Velgrynd, Lord of Scorch** | Poder ígneo herdado da dragonesa Velgrynd. |
 
 ---
 
 ## ⚙️ Unique Skills
 
-* Degenerate
-* Devourer (anteriormente Predator + Starved)
-* Gluttony (evoluiu em Beelzebuth)
-* Infinity Prison
-* Merciless
-* Starved (combinado em Gluttony)
-* Wise One (anteriormente Great Sage, evoluiu em Raphael)
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Degenerate** | Permite fusão e separação de habilidades. |
+| **Devourer** | Absorção e decomposição (Predator + Starved). |
+| **Gluttony** | Versão intermediária de Beelzebuth. |
+| **Infinity Prison** | Sela entidades em outra dimensão. |
+| **Merciless** | Elimina inimigos derrotados instantaneamente. |
+| **Starved** | Fome insaciável usada para fusões. |
+| **Wise One** | Evolução do Great Sage, anterior a Raphael. |
 
 ---
 
 ## ✨ Extra Skills
 
-(habilidades adicionais compiladas ao longo do tempo)
+> Habilidades adicionais de combate, percepção e manipulação adquiridas com o tempo.
 
-* Black Flame
-* Black Lightning
-* Black Thunder
-* Body Double
-* Explosive Flames
-* Flame Manipulation
-* Flame Transformation
-* Future Attack Prediction
-* Gravity Manipulation
-* Gravity Flight
-* Haki
-* Heat Source Perception
-* Heat Wave
-* Holy‑Demonic Inversion
-* Magic Aura
-* Mana Jamming
-* Mana Manipulation
-* Mana Perception
-* Molecular Manipulation
-* Multilayer Barrier
-* Ranged Barrier
-* Sage
-* Shadow Motion
-* Sound Wave Perception
-* Spatial Motion
-* Steel Strength
-* Sticky‑Steel Thread
-* Strengthen Body
-* Ultra Smell
-* Ultra Sound Waves
-* Ultraspeed Regeneration
-* Water Manipulation
+
+Black Flame, Black Lightning, Black Thunder, Body Double, Explosive Flames, Flame Manipulation, Flame Transformation, Future Attack Prediction, Gravity Manipulation, Gravity Flight, Haki, Heat Source Perception, Heat Wave, Holy‑Demonic Inversion, Magic Aura, Mana Jamming, Mana Manipulation, Mana Perception, Molecular Manipulation, Multilayer Barrier, Ranged Barrier, Sage, Shadow Motion, Sound Wave Perception, Spatial Motion, Steel Strength, Sticky‑Steel Thread, Strengthen Body, Ultra Smell, Ultra Sound Waves, Ultraspeed Regeneration, Water Manipulation
+
 
 ---
 
 ## 📘 Common Skills
 
-(pensado comuns ou armazenadas)
+> Habilidades básicas de defesa, suporte, ataque e comunicação.
 
-* Body Armor
-* Coercion
-* Drain
-* Hydraulic Propulsion
-* Paralyzing Breath
-* Poison Breath
-* Steel Thread
-* Sticky Thread
-* Telepathy
-* Thought Communication
-* Voice Cannon
-* Water Blade
-* Water Current Motion
+
+Body Armor, Coercion, Drain, Hydraulic Propulsion, Paralyzing Breath, Poison Breath, Steel Thread, Sticky Thread, Telepathy, Thought Communication, Voice Cannon, Water Blade, Water Current Motion
+
 
 ---
 
 ## 🛡️ Tolerances
 
-(atuais e antigas consolidadas)
+> Resistências e imunidades a ataques físicos, espirituais e efeitos anormais.
 
-* Abnormal Condition Nullification
-* Holy‑Demonic Attack Resistance
-* Natural Effects Nullification
-* Pain Nullification
-* Physical Attack Nullification
-* Spiritual Attack Nullification
+
+Abnormal Condition Nullification, Holy‑Demonic Attack Resistance, Natural Effects Nullification, Pain Nullification, Physical Attack Nullification, Spiritual Attack Nullification
+
 
 ---
 
-## ⚔️ Arts — Battlewill Style
+## ⚔️ Artes — *Battlewill Style*
 
-* Aura Slash
-* Aura Sword
-* Formhide
 
-  * Haze
-* Instantmove
-* Mana Bullet
+Aura Slash, Aura Sword, Formhide, Haze, Instantmove, Mana Bullet, Maximum Mana Bullet, Modelwill
 
-  * Maximum Mana Bullet
-* Modelwill
-
-## 🌀 Arts — Hazy Style
-
-* Instant Light Slash
-* Myriad Variety Petals
-
-  * Imaginary Collapse Haze・Myriad Variety Petals
 
 ---
 
-## 🪄 Magic — Aspectual Magic
+## 🌀 Artes — *Hazy Style*
 
-(organizado por tipo)
 
-* Barrier Magic
+Instant Light Slash, Myriad Variety Petals, Imaginary Collapse Haze・Myriad Variety Petals
 
-  * Anti‑magic Area
-  * Isolated Battlefield
-* Creation Magic
 
-  * Create Golem
-* Earth Magic
+---
 
-  * Stone Shot
-* Explosive Flame Magic
+## 🪄 Magias — *Aspectual Magic*
 
-  * Ultra Advanced Explosive Flame Technique
-* Explosive Magic
-
-  * Explosion
-* Fire Magic
-
-  * Fire
-* Flight Magic
-* Heat Magic
-* Ice Magic
-
-  * Icicle Lance
-
-    * Icicle Shot
-  * Icicle Spear
-* Legion Magic
-
-  * Transport Technique
-* Light Magic
-* Spiritual Magic
-* Nuclear Magic
-
-  * Gravity Collapse
-
-    * Abyss Annihilation
-  * Nuclear Flame
-* Recovery Magic
-* Slowing Magic
-
-  * Deceleration
-* Spatial Magic
-
-  * Dress Change
-  * Warp Portal
-* Transfer Magic
-
-  * Transfer Gate
-* Transportation Magic
-* Weakening Magic
-
-  * Exhaustion
-* Wind Magic
-
-  * Tornado Blade
-  * Wind Cutter
-* Other Magic
-
-  * Blind
-  * Magic Call
+| Tipo | Exemplos |
+|------|----------|
+| **Barreira** | Anti‑magic Area, Isolated Battlefield |
+| **Criação** | Create Golem |
+| **Terra** | Stone Shot |
+| **Explosiva** | Explosion, Ultra Advanced Explosive Flame Technique |
+| **Fogo** | Fire |
+| **Gelo** | Icicle Lance, Icicle Shot, Icicle Spear |
+| **Legião** | Transport Technique |
+| **Nuclear** | Gravity Collapse, Abyss Annihilation, Nuclear Flame |
+| **Espacial** | Warp Portal, Transfer Gate, Dress Change |
+| **Recuperação** | (não especificado) |
+| **Vento** | Tornado Blade, Wind Cutter |
+| **Outras** | Blind, Magic Call, Exhaustion |
 
 ---
 
 ## 🧙‍♂️ Mystic Arts
 
-* Hell Flare
 
-  * Head Shot
+Hell Flare, Head Shot, Saint Barrel, Mystic Thread, Mystic Thread Binding
 
-    * Saint Barrel
-* Mystic Thread
-
-  * Mystic Thread Binding
 
 ---
 
 ## 🗡️ Overblade
 
-* Melt Slash
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Melt Slash** | Corte de energia altamente destrutivo que derrete a matéria. |
 
-## 🔮 Magic‑Weapon Art
+---
 
-* Imaginary Blade
+## 🔮 Magic-Weapon Art
+
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Imaginary Blade** | Lâmina formada por imaginação e mana condensada. |
 
 ---
 
 ## 📦 Other
 
-* Absolute Guard
 
-  * Absolute End
-* Black Flame Strike
-* Distortion Field
+Absolute Guard, Absolute End, Black Flame Strike, Distortion Field, Dimension Fault, Flare Circle, Hydraulic Propulsion, Instant Motion, Jail Shake, Magic Flame Bullet, Secret Method of the Infinite Corridor, Spatial Connection, Spatial Transfer, Storm Break, Time Stop, Time Warp, Water Blade (evoluiu), Water Current Motion (evoluiu)
 
-  * Dimension Fault
-* Flare Circle
-* Hydraulic Propulsion
-* Instant Motion
-* Jail Shake
-* Magic Flame Bullet
-* Secret Method of the Infinite Corridor
-* Spatial Connection
-* Spatial Transfer
-* Storm Break
-* Time Stop
-* Time Warp
-* Water Blade (nota: evoluiu)
-* Water Current Motion (nota: evoluiu)
 
 ---
 
-## 🧠 Other Abilities
+## 🧠 Outras Habilidades
 
-* Acceleration
-* Cessation Lost
-* Digital nature
-* Dividing Ability
-* Engraving magic
-* Master Swordsmanship
-* Special Soul
+
+Acceleration, Cessation Lost, Digital Nature, Dividing Ability, Engraving Magic, Master Swordsmanship, Special Soul
+
 
 ---
 
 ## 🧿 Ciel
 
-* Habilidades relacionadas à proteção e memória de Rimuru
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Ciel** | Consciência avançada com função de suporte, memória e proteção a Rimuru. |
 
 ---
 
-## 📥 Skills via Food Chain (armazenadas por Shub‑Niggurath)
+## 📥 Skills via Food Chain
 
-* Todas as habilidades analisadas e capturadas por Skill Storage, com acesso via Skill Duplication
+| Habilidade | Descrição |
+|-----------|-----------|
+| **Skill Storage & Duplication** | Armazena todas as habilidades analisadas por Shub‑Niggurath e permite duplicação. |
 
 ---
 
 ## 🧰 Equipamentos
 
-* Drago Blade
-* Jet Black Robe
-* Anti‑magic Mask
-* Demon's Ring
-* Honey
-* Cell phone
-* Potion
-* Pseudo soul
+Drago Blade, Jet Black Robe, Anti‑magic Mask, Demon's Ring, Honey, Cell phone, Potion, Pseudo Soul
 
 `
-    },
+  },
 
-    {
-        id: "diablo",
-        name: "Diablo",
-        group: "tensei-shitara-slime-data-ken",
-        description: `
+  {
+      id: "diablo",
+      name: "Diablo",
+      group: "tensei-shitara-slime-data-ken",
+      description: `
 # Diablo
 
 ---
@@ -363,9 +249,9 @@ Anteriormente conhecido como **Noir**, ele foi convocado por Rimuru e recebeu um
 ## 🎯 Lealdade Inabalável
 
 Ele vê Rimuru como uma entidade divina e está disposto a **aniquilar qualquer um que o desrespeite**, mantendo um sorriso sereno e cortês.
-        `,
-        images: "https://static.zerochan.net/Diablo.%28Tensei.Shitara.Slime.Datta.Ken%29.full.2741192.jpg",
-        skills: `
+      `,
+      images: "https://static.zerochan.net/Diablo.%28Tensei.Shitara.Slime.Datta.Ken%29.full.2741192.jpg",
+      skills: `
 ## 💠 Ultimate Skills
 
 * Yogg-Sothoth, Lord of Secrets
@@ -424,13 +310,13 @@ Ele vê Rimuru como uma entidade divina e está disposto a **aniquilar qualquer 
 * Manto do Caos Abissal
 * Cajado das Chamas Eternas
 * Cristais de Invocação
-        `
-    },
-    {
-    id: "benimaru",
-    name: "Benimaru",
-    group: "tensei-shitara-slime-data-ken",
-    description: `
+      `
+  },
+  {
+  id: "benimaru",
+  name: "Benimaru",
+  group: "tensei-shitara-slime-data-ken",
+  description: `
 # Benimaru
 
 ---
@@ -452,8 +338,8 @@ Benimaru exala uma aura **honrada e determinada**, lutando com a ferocidade de u
 Sente-se eternamente grato a Rimuru por salvar ele e sua tribo. **Seu senso de responsabilidade é inabalável**, e trata seus aliados como uma extensão de sua família.
 
 `,
-    images: "https://pm1.aminoapps.com/7879/414f3e99059a169d4aa1abb47bd36d1ba53f21e1r1-600-480v2_hq.jpg",
-    skills: `
+  images: "https://pm1.aminoapps.com/7879/414f3e99059a169d4aa1abb47bd36d1ba53f21e1r1-600-480v2_hq.jpg",
+  skills: `
 ## 💠 Ultimate Skills
 
 * Odo, Lord of Control
@@ -490,12 +376,12 @@ Sente-se eternamente grato a Rimuru por salvar ele e sua tribo. **Seu senso de r
 * Crimson Katana
 * Magic Armor Set
 `
-    },
-    {
-    id: "shion",
-    name: "Shion",
-    group: "tensei-shitara-slime-data-ken",
-    description: `
+  },
+  {
+  id: "shion",
+  name: "Shion",
+  group: "tensei-shitara-slime-data-ken",
+  description: `
 # Shion
 
 ---
@@ -517,8 +403,8 @@ Famosa por sua comida mortal e jeito explosivo, Shion também é profundamente *
 Ao perder a vida, sua fúria gerou o nascimento de uma guerreira ainda mais poderosa com sede de proteger Rimuru **a qualquer custo**.
 
 `,
-    images: "https://i.postimg.cc/VvD1Wm6P/Shion-Tensei-Shitara-Slime-Datta-Ken-full-3604258.png",
-    skills: `
+  images: "https://i.postimg.cc/VvD1Wm6P/Shion-Tensei-Shitara-Slime-Datta-Ken-full-3604258.png",
+  skills: `
 ## 💠 Ultimate Skills
 
 * Adroa, Lord of Wrath
@@ -552,139 +438,139 @@ Ao perder a vida, sua fúria gerou o nascimento de uma guerreira ainda mais pode
 * Greatsword “Hercules Edge”
 * Demon Armor
 `
-},
+  },
 
-{
-    id: "shuna",
-    name: "Shuna",
-    group: "tensei-shitara-slime-data-ken",
-    description: `
-# Shuna
+  {
+      id: "shuna",
+      name: "Shuna",
+      group: "tensei-shitara-slime-data-ken",
+      description: `
+  # Shuna
 
----
+  ---
 
-## 👑 Princesa Sacerdotisa
+  ## 👑 Princesa Sacerdotisa
 
-Shuna é a princesa dos ogros, mas prefere servir Rimuru com dedicação como **sacerdotisa, conselheira e estrategista**. Sua sabedoria e poder mágico são surpreendentes.
+  Shuna é a princesa dos ogros, mas prefere servir Rimuru com dedicação como **sacerdotisa, conselheira e estrategista**. Sua sabedoria e poder mágico são surpreendentes.
 
----
+  ---
 
-## 🎨 Domínio Espiritual e Místico
+  ## 🎨 Domínio Espiritual e Místico
 
-Apesar da aparência gentil e serena, **sua magia espiritual é devastadora**. É um pilar de suporte mágico em todas as frentes de batalha.
+  Apesar da aparência gentil e serena, **sua magia espiritual é devastadora**. É um pilar de suporte mágico em todas as frentes de batalha.
 
----
+  ---
 
-## 💗 Coração Leal
+  ## 💗 Coração Leal
 
-Shuna admira profundamente Rimuru e **age com sensibilidade e firmeza**, equilibrando razão e emoção no conselho de Tempest.
+  Shuna admira profundamente Rimuru e **age com sensibilidade e firmeza**, equilibrando razão e emoção no conselho de Tempest.
 
-`,
-    images: "https://image.cdn2.seaart.me/static/images/20231215/a6fd5e92031a03b9db19b440ff3946d4_high.webp",
-    skills: `
-## 💠 Ultimate Skills
+  `,
+      images: "https://image.cdn2.seaart.me/static/images/20231215/a6fd5e92031a03b9db19b440ff3946d4_high.webp",
+      skills: `
+  ## 💠 Ultimate Skills
 
-* Alrescha, Lord of Creation
+  * Alrescha, Lord of Creation
 
----
+  ---
 
-## ⚙️ Unique Skills
+  ## ⚙️ Unique Skills
 
-* Priestess
-* Master of Barriers
+  * Priestess
+  * Master of Barriers
 
----
+  ---
 
-## ✨ Extra Skills
+  ## ✨ Extra Skills
 
-* Spiritual Magic
-* Barrier Mastery
-* Enchantment Arts
+  * Spiritual Magic
+  * Barrier Mastery
+  * Enchantment Arts
 
----
+  ---
 
-## 🛡️ Tolerances
+  ## 🛡️ Tolerances
 
-* Spiritual Attack Resistance
-* Mental Attack Resistance
+  * Spiritual Attack Resistance
+  * Mental Attack Resistance
 
----
+  ---
 
-## 🧰 Equipamentos
+  ## 🧰 Equipamentos
 
-* Sacred Staff
-* Barrier Robes
-`
-},
+  * Sacred Staff
+  * Barrier Robes
+  `
+  },
 
-{
-    id: "ranga",
-    name: "Ranga",
-    group: "tensei-shitara-slime-data-ken",
-    description: `
-# Ranga
+  {
+      id: "ranga",
+      name: "Ranga",
+      group: "tensei-shitara-slime-data-ken",
+      description: `
+  # Ranga
 
----
+  ---
 
-## 🐺 Guardião Sombrio
+  ## 🐺 Guardião Sombrio
 
-Fiel companheiro de Rimuru desde o início, Ranga é um lobo mágico que evoluiu para um ser poderoso e **capaz de invocar tempestades sombrias** devastadoras.
+  Fiel companheiro de Rimuru desde o início, Ranga é um lobo mágico que evoluiu para um ser poderoso e **capaz de invocar tempestades sombrias** devastadoras.
 
----
+  ---
 
-## ⚡ Sombra Leal
+  ## ⚡ Sombra Leal
 
-Ele **vive nas sombras de Rimuru**, literalmente, pronto para agir em qualquer situação com rapidez e brutalidade.
+  Ele **vive nas sombras de Rimuru**, literalmente, pronto para agir em qualquer situação com rapidez e brutalidade.
 
----
+  ---
 
-## 🐾 Espírito de Alcateia
+  ## 🐾 Espírito de Alcateia
 
-Lidera a alcateia com orgulho e respeito. **Sua conexão espiritual com Rimuru o torna único**, agindo como seus olhos e ouvidos silenciosos.
+  Lidera a alcateia com orgulho e respeito. **Sua conexão espiritual com Rimuru o torna único**, agindo como seus olhos e ouvidos silenciosos.
 
-`,
-    images: "https://s1.zerochan.net/Ranga.%28Tensei.Shitara.Slime.Datta.Ken%29.600.2837581.jpg",
-    skills: `
-## 💠 Ultimate Skills
+  `,
+      images: "https://s1.zerochan.net/Ranga.%28Tensei.Shitara.Slime.Datta.Ken%29.600.2837581.jpg",
+      skills: `
+  ## 💠 Ultimate Skills
 
-* Star King, Fenrir
+  * Star King, Fenrir
 
----
+  ---
 
-## ⚙️ Unique Skills
+  ## ⚙️ Unique Skills
 
-* Shadow Stride
-* Thunder Howl
+  * Shadow Stride
+  * Thunder Howl
 
----
+  ---
 
-## ✨ Extra Skills
+  ## ✨ Extra Skills
 
-* Wind Manipulation
-* Black Lightning
-* Shadow Movement
+  * Wind Manipulation
+  * Black Lightning
+  * Shadow Movement
 
----
+  ---
 
-## 🛡️ Tolerances
+  ## 🛡️ Tolerances
 
-* Electric Resistance
-* Physical Attack Nullification
+  * Electric Resistance
+  * Physical Attack Nullification
 
----
+  ---
 
-## 🧰 Equipamentos
+  ## 🧰 Equipamentos
 
-* Shadow Collar
-* Magic Fang Enhancer
-`
-},
+  * Shadow Collar
+  * Magic Fang Enhancer
+  `
+  },
 
-{
-    id: "geld",
-    name: "Geld",
-    group: "tensei-shitara-slime-data-ken",
-    description: `
+  {
+  id: "geld",
+  name: "Geld",
+  group: "tensei-shitara-slime-data-ken",
+  description: `
 # Geld
 
 ---
@@ -706,8 +592,8 @@ Sua força bruta e **resistência sobre-humana** fazem dele um tanque de guerra 
 Ex-rei orc, encontrou em Rimuru uma nova razão de viver e **canaliza sua força para reconstruir e proteger**, não destruir.
 
 `,
-    images: "https://c4.wallpaperflare.com/wallpaper/843/918/469/tensei-shitara-slime-datta-ken-geld-tensura-orc-lord-hd-wallpaper-preview.jpg",
-    skills: `
+  images: "https://c4.wallpaperflare.com/wallpaper/843/918/469/tensei-shitara-slime-datta-ken-geld-tensura-orc-lord-hd-wallpaper-preview.jpg",
+  skills: `
 ## ⚙️ Unique Skills
 
 * Protection
@@ -736,9 +622,5 @@ Ex-rei orc, encontrou em Rimuru uma nova razão de viver e **canaliza sua força
 * Titan Armor
 `
 },
-
-
-
-
 
 ]

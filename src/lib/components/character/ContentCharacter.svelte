@@ -13,7 +13,7 @@
   >
     <nav class="flex gap-2.5">
       <a href="/" class="btn">Inicio</a>
-      <a href="/" class="btn">Habilidades</a>
+      <a href="/works/{character.group}/persons/{character.id}/skills" class="btn">Habilidades</a>
     </nav>
   </div>
   <div

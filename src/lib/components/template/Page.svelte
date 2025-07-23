@@ -17,7 +17,7 @@
     <main class="flex-1">
       <slot></slot>
     </main>
-    {#if !page.url.pathname.endsWith('persons') } 
+    {#if !page.url.pathname.includes("persons") } 
     <Aside />
     {/if}
   </div>
